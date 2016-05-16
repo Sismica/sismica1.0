@@ -145,7 +145,7 @@ $fuente1: 'Eras Light ITC Regular';
     font: normal 25px Helvetica, Arial, sans-serif;
     letter-spacing: -0.05em;
     line-height: 20px;
-    margin: 10px 0 30px;
+    margin: 0px 0 20px;
     text-align: center;
 }
 .titulo{ 
@@ -228,10 +228,7 @@ footer {
     margin-left: 10px;
 }
 .registro{
-    padding-top: 10px;
-    display: flex;
-    flex-direction: column; 
-    justify-content: space-between;
+    padding-top: 10px;  
 }
 
 
@@ -246,6 +243,10 @@ footer {
     align-self:center;
 }
 
+.btn_margin{
+        margin-top: 35px;
+        margin-left: 5px;
+}
 .foto{
     display: flex;
     justify-content: center;
@@ -310,7 +311,7 @@ span i {
 }
 
 .formularios{
-    margin-top: 20px;
+    margin-top: 4%;
     padding-top: 0px;
     padding-left: 0px !important;
     background-color: $blanco;

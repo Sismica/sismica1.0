@@ -29,7 +29,7 @@ body { margin: 0; padding: 0; width: 100%; display: table; font-weight: bold; fo
 
 .aparecer { display: inherit !important; }
 
-.login_content h1 { font: normal 25px Helvetica, Arial, sans-serif; letter-spacing: -0.05em; line-height: 20px; margin: 10px 0 30px; text-align: center; }
+.login_content h1 { font: normal 25px Helvetica, Arial, sans-serif; letter-spacing: -0.05em; line-height: 20px; margin: 0px 0 20px; text-align: center; }
 
 .titulo { text-align: center; font-family: 'Lato'; font-size: 25px; }
 
@@ -54,11 +54,13 @@ footer { height: 40px; background-color: #0FC376; width: 100%; color: #ffffff; m
 
 .img1 { width: 20px; margin: 0; margin-top: -5px; margin-left: 10px; }
 
-.registro { padding-top: 10px; display: flex; flex-direction: column; justify-content: space-between; }
+.registro { padding-top: 10px; }
 
 .fila2 { display: flex; flex-direction: row; align-items: flex-start; }
 
 .botonR { align-self: center; }
+
+.btn_margin { margin-top: 35px; margin-left: 5px; }
 
 .foto { display: flex; justify-content: center; align-items: center; margin-left: 50px; margin-top: 15px; }
 
@@ -80,7 +82,7 @@ span i { padding-left: 25%; }
 
 #home { background-image: url("../dist/img/mujeres.jpg"); background-repeat: no-repeat; background-attachment: fixed; background-size: cover; background-position: center center; height: 100vh; }
 
-.formularios { margin-top: 20px; padding-top: 0px; padding-left: 0px !important; background-color: #ffffff; opacity: 0.8; }
+.formularios { margin-top: 4%; padding-top: 0px; padding-left: 0px !important; background-color: #ffffff; opacity: 0.8; }
 
 .tab-content { padding: 0px 0px !important; }
 
