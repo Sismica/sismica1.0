@@ -25,7 +25,7 @@
             <div class="clearfix"></div>
             <div class="hr5" style="margin-top:30px; margin-bottom:45px;"></div>
               <p class="change_link">New to site?
-                <a href="#toregister" class="to_register"> Crear Nueva Cuenta  </a>
+                <a href="#tab-1" data-toggle="tab">Crear Nueva Cuenta</a>
               </p>
               <div class="clearfix"></div>
               <br />
