@@ -79,14 +79,11 @@
 </head>
 
 <body>
-
   <!-- Full Body Container -->
   <div id="container">
     <!-- Start Header Section -->
-    <div class="hidden-header"></div>
-    
+    <div class="hidden-header"></div>   
     @include('ClienteBloopets.Template.menu') <!--  incluimmos el menu -->
-
     <!-- Start Home Page Slider -->
     <section id="home">
         <div class="col-md-7" style="margin-right: -50px;"></div>    
@@ -95,21 +92,21 @@
 
               <!-- Nav Tabs -->
               <ul class="nav nav-tabs">
-                <li class="active"><a href="#tab-1" data-toggle="tab"><i class="fa fa-desktop"></i>Registrarse</a></li>
-                <li><a href="#tab-2" data-toggle="tab"><i class="fa fa-leaf"></i>Iniciar Sesión</a></li>
+                <li><a href="#tab-1" data-toggle="tab">Registrarse</a></li>
+                <li class="active"><a href="#tab-2" data-toggle="tab">Iniciar Sesión</a></li>
                 
               </ul>
 
               <!-- Tab panels -->
               <div class="tab-content">
                 <!-- Tab Content 1 -->
-                <div class="tab-pane fade in active" id="tab-1">
+                <div class="tab-pane fade " id="tab-1">
                   {!!Form::open(['files'=>true, 'id'=>'registro'])!!}
                   @include('ClienteBloopets.Template.Form.registrar')     
                   {!!Form::close()!!}
                 </div>
                 <!-- Tab Content 2 -->
-                <div class="tab-pane fade" id="tab-2">
+                <div class="tab-pane fade in active" id="tab-2">
                   <div id="login" class="animate form">
                     <section class="login_content">         
                       
@@ -123,7 +120,6 @@
               <!-- End Tab Panels -->
         </div>
         </div>
-  
     </section>
     <!-- End Home Page Slider -->
 
@@ -166,8 +162,13 @@
     @include('ClienteBloopets.Template.seccion7') 
   </section>
 <!-- End seccion sec-7 -->
-
-
+    <div id="loader">
+        <div class="spinner">
+          <div class="dot1"></div>
+          <div class="dot2"></div>
+        </div>
+    </div>
+</div>
   <script type="text/javascript" src="{{asset('nuevo/js/script.js')}}"></script>
   <script type="text/javascript" src="{{asset('js/Bloopetsfunciones.js')}}"></script>
   <script src="{{asset('js/FileUploader.js')}}"></script>
